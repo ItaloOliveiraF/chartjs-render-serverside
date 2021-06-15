@@ -3,6 +3,6 @@ import { chartsRoutes } from "./charts.routes";
 
 const routes = Router();
 
-routes.use("/charts", chartsRoutes);
+routes.use("/chart", chartsRoutes);
 
 export { routes };
